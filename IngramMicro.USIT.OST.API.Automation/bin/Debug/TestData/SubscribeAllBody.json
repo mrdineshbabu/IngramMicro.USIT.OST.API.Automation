@@ -1,0 +1,15 @@
+{
+  "SourceSystem": "IM360",
+  "UserEmailConfigurationID": "6840998F-59CA-4F5B-93A1-AA1360836367",
+ "CompanyCode": "MD",
+  "CustomerNumber": "41-610751",
+  "IngramOrderNumber": "41-N4LML",
+  "IngramOrderDate": "2020-12-14",
+  "CustomerPurchaseOrder": "4557309",
+   "SubscriberType": "Reseller",
+  
+  "EmailConfigurationID": [
+    "9D6522E8-00D3-47B2-8E79-CB6FD8E071CD",
+    "86D28E69-0D39-43C0-AB22-E7DBE7A74B89"
+  ]
+}

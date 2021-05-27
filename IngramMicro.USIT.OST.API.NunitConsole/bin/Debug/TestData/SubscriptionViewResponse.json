@@ -1,0 +1,34 @@
+{
+  "ErrorFlag": false,
+  "SubscriptionData": {
+    "CustomerPurchaseOrder": "WFH0027",
+    "IngramOrderDate": "2020-12-11",
+    "SubscriptionID": "AF0BE4AB-6D99-42F6-9055-44210EE33EC5",
+    "IngramOrderNumber": "40-B5J68",
+    "CustomerNumber": "40-033473",
+    "SubscriptionData": [
+      {
+        "SubscribableEventName": "Order Confirmation",
+        "SubscribableEventID": "C10EB490-0FF8-4103-8D03-CE621EF5F38C",
+        "EmailAddressess": [
+          {
+            "EmailConfigurationID": "86D28E69-0D39-43C0-AB22-E7DBE7A74B89",
+            "EmailAddress": "Ananya@ingrammicro.com"
+          }
+        ]
+      },
+      {
+        "SubscribableEventName": "Product Backordered (Stock Only)",
+        "SubscribableEventID": "0C521E2F-2493-45A4-B94C-B936F6D48743",
+        "EmailAddressess": [
+          {
+            "EmailConfigurationID": "86D28E69-0D39-43C0-AB22-E7DBE7A74B89",
+            "EmailAddress": "Ananya@ingrammicro.com"
+          }
+        ]
+      }
+    ],
+    "SubscriberType": "Reseller",
+    "CompanyCode": "MD"
+  }
+}

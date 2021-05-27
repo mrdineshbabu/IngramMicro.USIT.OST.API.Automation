@@ -1,0 +1,67 @@
+[
+    {
+        "parameterName": "CompanyCode",
+        "parameterValue": "MD"
+    },
+    {
+        "parameterName": "ResellerNumber",
+        "parameterValue": "30-896172"
+    },
+    {
+        "parameterName": "OrderNumber",
+        "parameterValue": "30-86345-11"
+    },
+    {
+        "parameterName": "OrderDate",
+        "parameterValue": "2020-09-22 18:18:49"
+    },
+    {
+        "parameterName": "CustomerPurchaseOrder",
+        "parameterValue": "STN190789"
+    },
+    {
+        "parameterName": "EventCode",
+        "parameterValue": "O1"
+    },
+    {
+        "parameterName": "EventDateTime",
+        "parameterValue": "2020-07-15 18:40:27"
+    },
+    {
+        "parameterName": "SourceSystem",
+        "parameterValue": "IMPulse"
+    },
+    {
+        "parameterName": "TermID",
+        "parameterValue": "MAFJ"
+    },
+    {
+        "parameterName": "SeeburgerTransactionId",
+        "parameterValue": "0009623843"
+    },
+    {
+        "emailPayload": [
+            {
+                "ingramPartNumber": "8GU859",
+                "vendorPartNumber": "1016432242613-FED1",
+                "partDescription": "CTO THUNDERBOLT DOCK-WD19TB    DOCK",
+                "quantityStatus": "Status 1",
+                "quantity": "11"
+            },
+            {
+                "ingramPartNumber": "8GU860",
+                "vendorPartNumber": "1016432242613-FED2",
+                "partDescription": "CTO LATITUDE 5510-BUILD YOUR   SYST",
+                "quantityStatus": "Status 2",
+                "quantity": "11"
+            },
+            {
+                "ingramPartNumber": "8GU861",
+                "vendorPartNumber": "1016432242613-FED3",
+                "partDescription": "CTO PRO BRIEFCASE 15 PO1520C   CASE",
+                "quantityStatus": "Status 2",
+                "quantity": "11"
+            }
+        ]
+    }
+]

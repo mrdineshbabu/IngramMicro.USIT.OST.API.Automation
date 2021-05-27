@@ -1,0 +1,38 @@
+[
+    {
+        "parameterName": "CompanyCode",
+        "parameterValue": "MD"
+    },
+    {
+        "parameterName": "ResellerNumber",
+        "parameterValue": "70-614440"
+    },
+    {
+        "parameterName": "OrderNumber",
+        "parameterValue": "70-QQ951-11"
+    },
+    {
+        "parameterName": "OrderDate",
+        "parameterValue": "2020-10-07 11:51:42"
+    },
+    {
+        "parameterName": "CustomerPurchaseOrder",
+        "parameterValue": "HOLD JAY"
+    },
+    {
+        "parameterName": "EventCode",
+        "parameterValue": "O"
+    },
+    {
+        "parameterName": "EventDateTime",
+        "parameterValue": "2020-07-15 11:51:42"
+    },
+    {
+        "parameterName": "SourceSystem",
+        "parameterValue": "IMPulse"
+    },
+    {
+        "parameterName": "TermID",
+        "parameterValue": "4308"
+    }
+]

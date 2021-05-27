@@ -1,0 +1,646 @@
+{
+  "maximumSortableFields": 2,
+  "fieldDefinitions": [
+    {
+      "name": "Account Number",
+      "category": { "name": "Header Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 1
+    },
+    {
+      "name": "Billing Suffix",
+      "category": { "name": "Pricing/Invoice" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 2
+    },
+    {
+      "name": "Shipping Suffix",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 3
+    },
+    {
+      "name": "Number of Lines on Order ",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 4
+    },
+    {
+      "name": "Order Date:Time (PST)",
+      "category": { "name": "Header Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 5
+    },
+    {
+      "name": "Reseller Purchase Order Number",
+      "category": { "name": "Header Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 6
+    },
+    {
+      "name": "End User Purchase Order Number",
+      "category": { "name": "Header Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 7
+    },
+    {
+      "name": "Ingram Micro Sales Order Number",
+      "category": { "name": "Header Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 8
+    },
+    {
+      "name": "Ingram Micro Order Line Number",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 9
+    },
+    {
+      "name": "Reseller Order Line Number ",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 10
+    },
+    {
+      "name": "Line Status",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 11
+    },
+    {
+      "name": "Order Status",
+      "category": { "name": "Header Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 12
+    },
+    {
+      "name": "Order Type",
+      "category": { "name": "Header Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": true,
+        "filterPreferences": {
+          "dataType": "string",
+          "filterType": "multi-select",
+          "options": {
+            "selectValues": [
+              {
+                "displayText": "STOCK ORDER",
+                "isSelected": true
+              },
+              {
+                "displayText": "DIRECT ORDER",
+                "isSelected": false
+              }
+            ]
+          }
+        }
+      },
+      "id": 13
+    },
+    {
+      "name": "Order Entry Method",
+      "category": { "name": "Header Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 14
+    },
+    {
+      "name": "Ingram Micro SKU",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 15
+    },
+    {
+      "name": "Manufacturer Part Number",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 16
+    },
+    {
+      "name": "Reseller Part Number",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 17
+    },
+    {
+      "name": "Manufacturer Name",
+      "category": { "name": "Header Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 18
+    },
+    {
+      "name": "Part Description",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 19
+    },
+    {
+      "name": "Qty Ordered",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 20
+    },
+    {
+      "name": "Qty Shippable",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 21
+    },
+    {
+      "name": "Qty Shipped",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 22
+    },
+    {
+      "name": "Qty Backordered",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 23
+    },
+    {
+      "name": "Special Pricing Applied on Order",
+      "category": { "name": "Pricing/Invoice" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 24
+    },
+    {
+      "name": "Kit SKU Indicator",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 25
+    },
+    {
+      "name": "Retail Price",
+      "category": { "name": "Pricing/Invoice" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 26
+    },
+    {
+      "name": "Reseller Per Unit Price",
+      "category": { "name": "Pricing/Invoice" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 27
+    },
+    {
+      "name": "Reseller Extended Price",
+      "category": { "name": "Pricing/Invoice" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 28
+    },
+    {
+      "name": "Total Order Price ",
+      "category": { "name": "Pricing/Invoice" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 29
+    },
+    {
+      "name": "Expected Ship Date",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 30
+    },
+    {
+      "name": "Actual Ship Date",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 31
+    },
+    {
+      "name": "Expected Arrival Date",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 32
+    },
+    {
+      "name": "Delivered Date",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 33
+    },
+    {
+      "name": "SCAC",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 34
+    },
+    {
+      "name": "Carrier Name",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 35
+    },
+    {
+      "name": "Carrier Tracking Numbers",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 36
+    },
+    {
+      "name": "Serial Numbers",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 37
+    },
+    {
+      "name": "Number of Items in Box(es)",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 38
+    },
+    {
+      "name": "Number of Boxes in Shipment",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 39
+    },
+    {
+      "name": "Weight (lbs)",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 40
+    },
+    {
+      "name": "Freight Payment Method",
+      "category": { "name": "Pricing/Invoice" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 41
+    },
+    {
+      "name": "End User Name",
+      "category": { "name": "Header Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 42
+    },
+    {
+      "name": "Ship To",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 43
+    },
+    {
+      "name": "Ship To Address1",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 44
+    },
+    {
+      "name": "Ship To Address2",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 45
+    },
+    {
+      "name": "Ship To Address3",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 46
+    },
+    {
+      "name": "Ship To Address4",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 47
+    },
+    {
+      "name": "Attention Line",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 48
+    },
+    {
+      "name": "City",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 49
+    },
+    {
+      "name": "State",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 50
+    },
+    {
+      "name": "Postal Code",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 51
+    },
+    {
+      "name": "Country",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 52
+    },
+    {
+      "name": "UPC",
+      "category": { "name": "Line Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 53
+    },
+    {
+      "name": "Invoice Date",
+      "category": { "name": "Pricing/Invoice" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": true,
+        "filterPreferences": {
+          "dataType": "date",
+          "filterType": "free-text",
+          "helpText": "N Days in Relation with Current Date",
+          "options": {
+            "minimumDate": {
+              "dateType": "relative",
+              "value": "-30"
+            },
+            "maximumDate": {
+              "dateType": "relative",
+              "value": "0"
+            }
+          }
+        }
+      },
+      "id": 54
+    },
+    {
+      "name": "Invoice Number",
+      "category": { "name": "Pricing/Invoice" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 55
+    },
+    {
+      "name": "Carrier Status",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 57
+    },
+    {
+      "name": "Carrier Description",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 58
+    },
+    {
+      "name": "Carrier Pickup Date",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 59
+    },
+    {
+      "name": "Account Name",
+      "category": { "name": "Header Details" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 60
+    },
+    {
+      "name": "Ship From Branch Number",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 61
+    },
+    {
+      "name": "Ship From Branch Name",
+      "category": { "name": "Shipping/Tracking" },
+      "structuralHierarchyName": "NONE",
+      "attributes": {
+        "isMandatory": true,
+        "isFilterable": false
+      },
+      "id": 62
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Escape Characters
+"   &quot;
+'   &apos;
+<   &lt;
+>   &gt;
+&   &amp;-->
+<DBQueries>
+    <Properties>
+        <PropertyName>EmailTriggered</PropertyName>
+        <PropertyValue>
+          SELECT [ost].[OST_Tracking_Report].ReportScheduleID, [ost].[OST_Report_Scheduler].ReportID, [ost].[OST_Tracking_Report].EmailDeliveryStatus
+          FROM [ost].[OST_Tracking_Report]
+          LEFT JOIN [ost].[OST_Report_Scheduler] ON [ost].[OST_Tracking_Report].ReportScheduleID = [ost].[OST_Report_Scheduler].ID where ReportScheduleID = reportIDfromAPI
+        </PropertyValue>     
+  </Properties>  
+</DBQueries>

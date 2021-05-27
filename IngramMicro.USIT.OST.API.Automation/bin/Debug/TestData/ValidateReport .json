@@ -1,0 +1,11 @@
+{
+  "requestHeader": {
+    "sourceSystem": "OST",
+    "consumerTransactionReference": "072020201225",
+        "requestDateTime": "2020-07-20 15:13 PM IST"
+  },
+  "companyCode": "MD",
+  "loginUserId": "OST",
+  "branchCustomerNumber": "20-345453",
+  "reportID": 27
+}

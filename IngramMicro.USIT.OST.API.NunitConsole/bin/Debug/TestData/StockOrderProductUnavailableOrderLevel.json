@@ -1,0 +1,38 @@
+[
+    {
+        "parameterName": "CompanyCode",
+        "parameterValue": "MD"
+    },
+    {
+        "parameterName": "ResellerNumber",
+        "parameterValue": "30-395650"
+    },
+    {
+        "parameterName": "OrderNumber",
+        "parameterValue": "30-L2TK5-11"
+    },
+    {
+        "parameterName": "OrderDate",
+        "parameterValue": "2020-07-15 06:08:22"
+    },
+    {
+        "parameterName": "CustomerPurchaseOrder",
+        "parameterValue": "P19610043"
+    },
+    {
+        "parameterName": "EventCode",
+        "parameterValue": "K"
+    },
+    {
+        "parameterName": "EventDateTime",
+        "parameterValue": "2020-07-15 15:25:58"
+    },
+    {
+        "parameterName": "SourceSystem",
+        "parameterValue": "IMPulse"
+    },
+    {
+        "parameterName": "TermID",
+        "parameterValue": "WEBX"
+    }
+]
