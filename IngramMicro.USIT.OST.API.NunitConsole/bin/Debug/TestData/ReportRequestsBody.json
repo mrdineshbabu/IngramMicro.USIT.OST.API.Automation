@@ -1,8 +1,0 @@
-{
-    "description": "Test",
-    "deliveryMechanism":{
-    "sendToSubscribers":false,
-    "emailAddresses": [
-    "dineshbabu.uvarajulu@ingrammicro.com"]
-    }
-}

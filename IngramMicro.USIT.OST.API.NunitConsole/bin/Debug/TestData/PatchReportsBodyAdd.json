@@ -1,7 +1,0 @@
-{ "changes":[ 
-{ "op": "add", 
-"path": "/deliveryMechanism/emailAddresses",
-"values": ["dineshbabu.uvarajulu@ingrammicro.com"]
-}
-]
-}
