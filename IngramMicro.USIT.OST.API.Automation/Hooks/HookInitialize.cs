@@ -70,8 +70,8 @@ namespace IngramMicro.USIT.OST.API.Automation.Hooks
         public static void BeforeFeature(FeatureContext featureContext)
         {
             //Get feature Name
-            
-            string resultFolder = Convert.ToString(ConfigurationManager.AppSettings["ResultPath"]);
+
+            string resultFolder = Constants.FilePath + "\\OST_API_Result"; //Convert.ToString(ConfigurationManager.AppSettings["ResultPath"]);
             string environment = Convert.ToString(ConfigurationManager.AppSettings["Environment"]);
 
             if (!Directory.Exists(resultFolder + "\\" + featureContext.FeatureInfo.Title + "_" + DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss")))

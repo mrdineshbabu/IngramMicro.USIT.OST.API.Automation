@@ -28,7 +28,7 @@ namespace IngramMicro.USIT.OST.API.NunitConsole
             switch (Feature)
             {
                 case "All":
-                    string all = @"nunit3-console.exe " + "\"--result=C:\\OST_API_Result\\" + Feature + "_" + DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss") + ".xml;format=nunit2\"" + @" C:\Automation\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\bin\Debug\IngramMicro.USIT.OST.API.Automation.dll";
+                    string all = @"nunit3-console.exe " + "\"--result=" + Constants.FilePath + "\\OST_API_Result\\" + Feature + "_" + DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss") + ".xml;format=nunit2\"" + @" C:\Automation\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\bin\Debug\IngramMicro.USIT.OST.API.Automation.dll";
                     using (StreamWriter sw = p.StandardInput)
                     {
                         if (sw.BaseStream.CanWrite)
