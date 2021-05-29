@@ -40,7 +40,7 @@ namespace IngramMicro.USIT.OST.API.NunitConsole
                     break;
 
                 case "OrderDetails":
-                    string orderDetails = @"nunit3-console.exe " + "\"--result=C:\\OST_API_Result\\" + Feature + "_" + DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss") + ".xml;format=nunit2\"" + @" C:\Automation\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\bin\Debug\IngramMicro.USIT.OST.API.Automation.dll --where cat==" + Feature;
+                    string orderDetails = @"nunit3-console.exe " + "\"--result=" + Constants.FilePath + "\\OST_API_Result\\" + Feature + "_" + DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss") + ".xml;format=nunit2\"" + @" C:\Automation\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\bin\Debug\IngramMicro.USIT.OST.API.Automation.dll --where cat==" + Feature;
                     using (StreamWriter sw = p.StandardInput)
                     {
                         if (sw.BaseStream.CanWrite)
@@ -52,7 +52,7 @@ namespace IngramMicro.USIT.OST.API.NunitConsole
                     break;
 
                 case "OSTReport":
-                    string ostReport = @"nunit3-console.exe " + "\"--result=C:\\OST_API_Result\\" + Feature + "_" + DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss") + ".xml;format=nunit2\"" + @" C:\Automation\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\bin\Debug\IngramMicro.USIT.OST.API.Automation.dll --where cat==" + Feature;
+                    string ostReport = @"nunit3-console.exe " + "\"--result=" + Constants.FilePath + "\\OST_API_Result\\" + Feature + "_" + DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss") + ".xml;format=nunit2\"" + @" C:\Automation\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\bin\Debug\IngramMicro.USIT.OST.API.Automation.dll --where cat==" + Feature;
                     using (StreamWriter sw = p.StandardInput)
                     {
                         if (sw.BaseStream.CanWrite)
@@ -64,7 +64,7 @@ namespace IngramMicro.USIT.OST.API.NunitConsole
                     break;
 
 		        case "NotificationHub":
-                    string notificationHubReport = @"nunit3-console.exe " + "\"--result=C:\\OST_API_Result\\" + Feature + "_" + DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss") + ".xml;format=nunit2\"" + @" C:\Automation\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\bin\Debug\IngramMicro.USIT.OST.API.Automation.dll --where cat==" + Feature;
+                    string notificationHubReport = @"nunit3-console.exe " + "\"--result=" + Constants.FilePath + "\\OST_API_Result\\" + Feature + "_" + DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss") + ".xml;format=nunit2\"" + @" C:\Automation\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\bin\Debug\IngramMicro.USIT.OST.API.Automation.dll --where cat==" + Feature;
                     using (StreamWriter sw = p.StandardInput)
                     {
                         if (sw.BaseStream.CanWrite)
