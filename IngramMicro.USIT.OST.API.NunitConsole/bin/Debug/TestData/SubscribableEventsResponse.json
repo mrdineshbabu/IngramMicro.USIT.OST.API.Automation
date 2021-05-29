@@ -1,0 +1,42 @@
+{
+  "SubscribableEventsFromSubscriberType": [
+    {
+      "Description": "Order Entered",
+      "EventId": "C10EB490-0FF8-4103-8D03-CE621EF5F38C",
+      "ActiveFlag": true,
+      "Name": "Order Confirmation"
+    },
+    {
+      "Description": "Details have changed for an Order",
+      "EventId": "0C521E2F-2493-45A4-B94C-B936F6D48743",
+      "ActiveFlag": true,
+      "Name": "Backordered"
+    },
+    {
+      "Description": "Order has been sent to the Warehouse for processing",
+      "EventId": "D5D0D836-89A7-40F8-8CB6-7BF8E9B69768",
+      "ActiveFlag": true,
+      "Name": "In Fulfillment"
+    },
+    {
+      "Description": "Order Has Been Shipped",
+      "EventId": "42E7CC23-DABE-4099-B7F0-60067C72F5A6",
+      "ActiveFlag": true,
+      "Name": "Shipped"
+    },
+    {
+      "Description": "Order Estimated Arrival Date Change update",
+      "EventId": "AD6A0B84-0CF4-4E6D-BC33-AAF9035F2CE3",
+      "ActiveFlag": true,
+      "Name": "ETA Changed"
+    },
+    {
+      "Description": "Order Has Been Delivered",
+      "EventId": "02C93584-B682-4D3A-8314-2D7F11E58F00",
+      "ActiveFlag": true,
+      "Name": "Delivered"
+    }
+  ],
+  "ErrorFlag": false,
+  "SubscriberType": "Reseller"
+}

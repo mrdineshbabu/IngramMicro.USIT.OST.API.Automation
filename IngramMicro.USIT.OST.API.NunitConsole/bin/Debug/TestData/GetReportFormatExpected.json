@@ -1,0 +1,28 @@
+{
+  "reportFormats": [
+    {
+      "type": "csv",
+      "isFieldSelectionAllowed": true,
+      "isFieldSortingAllowed": true,
+      "isFieldSequencingAllowed": true,
+      "isFilteringAllowed": true,
+      "isFieldRenamingAllowed": true
+    },
+    {
+      "type": "excel",
+      "isFieldSelectionAllowed": true,
+      "isFieldSortingAllowed": true,
+      "isFieldSequencingAllowed": true,
+      "isFilteringAllowed": true,
+      "isFieldRenamingAllowed": true
+    },
+    {
+      "type": "xml",
+      "isFieldSelectionAllowed": false,
+      "isFieldSortingAllowed": false,
+      "isFieldSequencingAllowed": false,
+      "isFilteringAllowed": true,
+      "isFieldRenamingAllowed": false
+    }
+  ]
+}
