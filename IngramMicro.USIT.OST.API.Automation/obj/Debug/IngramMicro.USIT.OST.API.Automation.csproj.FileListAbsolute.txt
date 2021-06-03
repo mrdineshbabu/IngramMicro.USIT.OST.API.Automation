@@ -685,7 +685,6 @@ E:\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\bin\D
 E:\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\bin\Debug\TechTalk.SpecFlow.xml
 E:\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb
 E:\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\bin\Debug\Utf8Json.xml
-E:\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\obj\Debug\IngramMicro.USIT.OST.API.Automation.csprojAssemblyReference.cache
 E:\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\obj\Debug\IngramMicro.USIT.OST.API.Automation.csproj.CoreCompileInputs.cache
 E:\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\obj\Debug\IngramMicro.USIT.OST.API.Automation.csproj.CopyComplete
 E:\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\obj\Debug\IngramMicro.USIT.OST.API.Automation.dll
