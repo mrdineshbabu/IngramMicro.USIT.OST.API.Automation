@@ -689,3 +689,4 @@ E:\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\obj\D
 E:\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\obj\Debug\IngramMicro.USIT.OST.API.Automation.csproj.CopyComplete
 E:\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\obj\Debug\IngramMicro.USIT.OST.API.Automation.dll
 E:\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\obj\Debug\IngramMicro.USIT.OST.API.Automation.pdb
+E:\IngramMicro.USIT.OST.API.Automation\IngramMicro.USIT.OST.API.Automation\obj\Debug\IngramMicro.USIT.OST.API.Automation.csprojAssemblyReference.cache
